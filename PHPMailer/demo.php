@@ -1,9 +1,9 @@
 <?php
 
-$smtphost = "smtp.falconide.com";
-$smtpusername = "workabroadfal";
-$smtpassword = "f03%ba0fbcb48";
-$smtpport = "25";
+$smtphost = "";
+$smtpusername = "";
+$smtpassword = "";
+$smtpport = "";
 
 $smtphost_high = "";
 
