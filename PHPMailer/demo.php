@@ -1,25 +1,23 @@
 <?php
 
-/*$smtphost = "smtp-sg2.seekasia.com";
-$smtpusername = "";
-$smtpassword = "";
-$smtpport = "25";*/
-
 $smtphost = "smtp.falconide.com";
 $smtpusername = "workabroadfal";
 $smtpassword = "f03%ba0fbcb48";
-$smtpport = "587";
+$smtpport = "25";
 
-$smtphost_high = "mta2-sg2.seekasia.com";
+$smtphost_high = "";
 
 
 $email_data = array(
         "to"    => "charm@workabroad.ph",
-        //"bcc"     => "charm@quantumx.com",
+        "cc"     => "",
+        "bcc"     => "",
         "subject"   => "Charm Local Test",
         "from"    => "syria@workabroad.ph",
         "from_name" => "WorkAbroad",
-        "msg"   => "This is a test only"
+        "msg"   => "This is a test only",
+        "file_list" => "",
+        "file_path" => ""
 );
 
 sendViaMailer($email_data);
